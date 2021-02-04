@@ -44,3 +44,12 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+
+function projectClick(e){
+	console.log ("id");
+	e.preventDefault();
+	
+	console.log(currentName);
+	$(this).anagrammedName ("currentName");
+
+}
